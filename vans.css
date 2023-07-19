@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+}
+
+.navyy, .shop{
+background-color: black;
+color: white;
+margin-top: -0.5rem;
+height: 2.5rem;
+font-weight: 700;
+font-family: Helvetica;
+font-size: 12.5px; 
+padding-left: 2rem;   
+        
+}
+
+.shop {
+    text-decoration:underline;
+}
+
+p{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* second nav */
+.second{
+    height: 1.8rem;
+    font-size: small;
+    font-weight: 300;
+    background-color: white;
+   
+
+}
+
+/* third nav */
+
+.vanz{
+top: 1rem;
+height: 5rem;
+background-color: white;
+
+}
+
+.custom-link {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+  color: black;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-size: 17px;
+  position: relative;
+  top:1.1rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 900;
+
+}
+
+.custom-link:hover {
+  border-bottom-color: black;
+  text-decoration: none;
+  color: black;
+}
+
+  /* search icon container*/
+.input-group-text{
+border-right: none;
+background-color: white;
+height:35px;
+
+width: 50px;
+border-radius: 17px;
+}
+
+.input-group-text2{
+background-color:white;
+height:35px;
+width: 50px;
+border-right: 0.5px solid darkgrey;
+border-bottom: 0.5px solid darkgrey;
+border-top: 0.5px solid darkgrey;
+border-radius: 17px;
+border-bottom-left-radius: 0;
+border-top-left-radius: 0;
+
+}
+/* search text input thing */
+.search-input {
+max-width: 200px;
+
+font-size:15px;
+font-weight: 400;
+height:35px;
+border-left: none;
+border-right: none;
+border-radius: 17px;
+
+
+}
+
+
+/* search icon itself */
+.bi-search, .bi-qr-code-scan{
+padding-left: 10px;
+padding-right: 10px;
+color: darkgrey;
+
+}
+
+
+
+/*  icon on the collapsing navbar */
+.icyy{
+padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+  font-size: 24px;
+
+
+}
+
+h3{
+font-family: 'Oswald', sans-serif;
+font-size: 17px ;
+text-align: center;
+}
+
+h2{
+font-family: 'Oswald', sans-serif;
+font-size: 23px ;
+text-align: center;
+letter-spacing: 2px;
+}
+
+
+.row .school{
+opacity: 0.75;
+height: 250px;
+
+}
+.image-button {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Oswald', sans-serif;
+font-size: 17px ;
+text-align: center;
+border-radius: 0;
+height: 50px;
+width: 130px;
+}
+
+.btn-outline-dark{
+font-family: 'Oswald', sans-serif;
+font-size: 17px ;
+text-align: center;
+border-radius: 0;
+height: 50px;
+width: 240px;
+color: black;
+}
+
+.btn-outline-dark:hover{
+color: brown;
+background-color: white;
+
+}
+
+.oval {
+letter-spacing: 2px;
+width: 120px;
+height: 50px;
+background-color: white;
+border: 2px solid black;
+border-radius: 50% / 70%;
+display: flex;
+font-family: 'Oswald', sans-serif;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+color: black;
+text-transform: uppercase;
+}
+
+.img-fluid{
+width: 90%;
+height: 250px;
+border: 0;
+border-color:none ;
+}
+
+.itemss{
+color: darkgray;
+text-transform: uppercase;
+font-size: 13.5px;
+padding-top: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .navyy, .shop, p{
+        height: 4rem;
+        font-size: 11px;
+    }
+    .navyy, .shop{
+        padding-left: 0;
+    }
+    
+    p{
+        margin-left: auto;
+        margin-right: auto;  
+    }
+
+    .icyy{
+    padding-left: 15px;
+    padding-right: 15px;
+  color: black;
+  font-size: 20px;
+}
+.navbar-toggler-icon{
+    height: 40px;
+    width: 20px;
+    color: black;
+
+}
+
+}
