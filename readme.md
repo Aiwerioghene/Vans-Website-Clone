@@ -36,7 +36,7 @@ The following technologies were used to build this Vans website clone:
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `https://github.com/Aiwerioghene/Vans-Website-Clone.git`
 2. Navigate to the project directory: `cd vans-website-clone`
 
 ## Usage
