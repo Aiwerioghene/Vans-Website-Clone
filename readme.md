@@ -13,14 +13,14 @@ This is a clone of the Vans website, created as part of a front-end web developm
 
 ## Introduction
 
-The Vans Website Clone is a web application that closely resembles the official Vans website in terms of layout, design, and functionality. It serves as a static website, and no backend functionality or database integration is included. The primary focus is on frontend development using HTML, CSS, and JavaScript.
+The Vans Website Clone is a web application that closely resembles the official Vans website in terms of layout and design. It serves as a static website, and no backend functionality or database integration is included. The primary focus is on frontend development using HTML, CSS, Bootstrap and JavaScript.
 
 ## Features
 
 - Responsive design: The website is fully responsive and adapts to various screen sizes, including mobile phones, tablets, and desktops.
 - Navigation: The site includes a responsive navigation bar that collapses into a hamburger menu on small screens.
 - Home Page: The home page showcases featured products, banners, and promotional content.
-- Product Pages: The site includes product pages with detailed information about each product, including images, descriptions, and pricing.
+- Product Pages: The site includes product pages with detailed information about each product, including images and pricing.
 - Search: Users can search for specific products using the search functionality.
 - Footer: The footer contains various links, social media icons, and language options.
 
@@ -31,6 +31,7 @@ The following technologies were used to build this Vans website clone:
 - HTML5: Used for creating the structure of the web pages.
 - CSS3: Used for styling the web pages and making them visually appealing.
 - JavaScript: Used for implementing interactive elements and enhancing user experience.
+- Bootstrap 4 : To make it responsive
 
 ## Installation
 
