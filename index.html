@@ -109,12 +109,13 @@
   <!-- Combined Collapsible Navbar on Small Screens -->
   <nav class="navbar navbar-expand-md  navbar-dark d-lg-none">
     <img src="images/vanslogo.png" width="100px" height="70px">
-    <div class="icons ml-auto d-flex d-md-none">
+    <div class="icons ml-auto d-flex d-md-none ml-auto">
         <i class="icyy bi bi-search"></i>
         <i class="icyy bi bi-geo-alt-fill"></i>
         <i class="icyy bi bi-cart2" id="cart-el"></i>
       </div>
-    <button class="navbar-toggler bg-dark ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <!-- the hamburger menuuuuu -->
+    <a class=" ml-auto" ><i class="bi bi-list "  data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"></i>
       <span class="navbar-toggler-icon"></span>
     </button>
     
@@ -345,27 +346,378 @@
 
 
   <!-- foooter -->
+  <footer class="text-white">
 
- 
 
+    <!-- for the medium screen sizes -->
+    <div class="container">
+      <!-- Large Screen - Five Columns -->
+      <div class="row d-none d-md-flex">
+        <!-- Column 1 -->
+        <div class="col-md-2">
+          <h5>Shop<i class="fas fa-chevron-down float-right d-sm-block d-md-none"></i></h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Mens</a></li>
+            <li><a href="#">Womens</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Classics</a></li>
+            <li><a href="#">Promotion</a></li>
+           
+          </ul>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-md-2">
+          <h5> Sports<i class="fas fa-chevron-down float-right d-sm-block d-md-none"></i></h5>
+          <ul class="list-unstyled">
+            <li><a href="#">BMX</a></li>
+            <li><a href="#">Skateboarding</a></li>
+            <li><a href="#">Snow</a></li>
+            <li><a href="#">Snurf</a></li>
+          </ul>
+        </div>
+        <!-- Column 3 -->
+        <div class="col-md-2">
+          <h5>support <i class="fas fa-chevron-down float-right d-sm-block d-md-none"></i></h5>
+          <ul class="list-unstyled">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Link 8</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Ways to Ship</a></li>
+            <li><a href="#">Store Locator</a></li>
+            <li><a href="#">Military Discount Programs</a></li>
+            <li><a href="#">Missin Points?</a></li>
+            <li><a href="#">Your Privacy Choices</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+        <!-- Column 4 -->
+        <div class="col-md-2">
+          <h5>company<i class="fas fa-chevron-down float-right d-sm-block d-md-none"></i></h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">CA Supply Chains Act</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Checkered Fund</a></li>
+            <li><a href="#">Affiliate Program</a></li>
+            <li><a href="#">Unsolicited Materials</a></li>
+            
+          </ul>
+        </div>
+        <!-- Column 5 -->
+        <div class="col-md-2">
+          <h5>contact<i class="fas fa-chevron-down float-right d-sm-block d-md-none"></i></h5>
+          <ul class="list-unstyled">
+            <li><a href="#">EMAIL</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <BR>
+              <br>
+            <li>ADDRESS</li>
+            <li>1588 South Coast Drive</li>
+            <li>Costa Mesa, CA 92626</li>
+            <br>
+              <br>
+            <li>HOURS</li>
+            <li>(Mon - Fri) 6am - 4pm PST</li>
+            <li>(Sat - Sun) 6:30 - 3pm PST </li>
+            <li>PST</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Small Screen - Collapsible Dropdowns -->
+      <div class="row d-md-none">
+        <div class="col-12">
+          <hr>
+          <!-- Column 1 Dropdown -->
+          <h5 class="text-left" data-toggle="collapse" data-target="#column1Dropdown">shop<i class="bi bi-chevron-compact-down float-right"></i></h5>
+          <ul class="list-unstyled collapse" id="column1Dropdown">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Mens</a></li>
+            <li><a href="#">Womens</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Classics</a></li>
+            <li><a href="#">Promotion</a></li>
+
+          </ul>
+          <hr>
+          <!-- Column 2 Dropdown -->
+          <h5 class="text-left" data-toggle="collapse" data-target="#column2Dropdown">sports <i class="bi bi-chevron-compact-down float-right"></i></h5>
+          <ul class="list-unstyled collapse" id="column2Dropdown">
+            <li><a href="#">BMX</a></li>
+            <li><a href="#">Skateboarding</a></li>
+            <li><a href="#">Snow</a></li>
+            <li><a href="#">Snurf</a></li>
+          </ul>
+          <hr>
+          <!-- Column 3 Dropdown -->
+          <h5 class="text-left" data-toggle="collapse" data-target="#column3Dropdown">support<i class="bi bi-chevron-compact-down float-right"></i></h5>
+          <ul class="list-unstyled collapse" id="column3Dropdown">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Ways to Ship</a></li>
+            <li><a href="#">Store Locator</a></li>
+            <li><a href="#">Military Discount Programs</a></li>
+            <li><a href="#">Missing Points?</a></li>
+            <li><a href="#">Your Privacy Choices</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+          <hr>
+          <!-- Column 4 Dropdown -->
+          <h5 class="text-left" data-toggle="collapse" data-target="#column4Dropdown">company <i class="bi bi-chevron-compact-down float-right"></i></h5>
+          <ul class="list-unstyled collapse" id="column4Dropdown">
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">CA Supply Chains Act</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Checkered Fund</a></li>
+            <li><a href="#">Affiliate Program</a></li>
+            <li><a href="#">Unsolicited Materials</a></li>
+            
+          </ul>
+          <hr>
+          <!-- Column 5 Dropdown -->
+          <h5 class="text-left" data-toggle="collapse" data-target="#column5Dropdown">contact<i class="bi bi-chevron-compact-down float-right"></i></h5>
+          <ul class="list-unstyled collapse" id="column5Dropdown">
+            <li>EMAIL</li>
+            <li><a href="#">Contact Us</a></li>
+            <BR>
+              <br>
+            <li>ADDRESS</li>
+            <li>1588 South Coast Drive</li>
+            <li>Costa Mesa, CA 92626</li>
+            <br>
+              <br>
+            <li>HOURS</li>
+            <li>(Mon - Fri) 6am - 4pm PST</li>
+            <li>(Sat - Sun) 6:30 - 3pm PST </li>
+            <li>PST</li>
+
+
+          </ul>
+          <hr>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row below d-flex justify-content-center">
+        <div class="col-lg-6 d-none d-md-none d-lg-none d-sm-block d-block">
+          <h3 class="text-center">STORE LOCATOR</h3>
+          <br>
+          <p class="text-center">Find a Vans Store near you</p>
+          <button type="button" class="btn btn-danger btn-block">FIND A STORE</button>
+          <br>
+          <h3 class="text-center">FOLLOW VANS</h3>
+          <br>
+          <center>
+          <div class="container d-flex justify-content-center">
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiX7-SB1J6AAxWUP8AKHT7WAi0QFnoECA4QAQ&url=https%3A%2F%2Ftwitter.com%2FVans&usg=AOvVaw0O_q7nIthIV5aaDP_uuow0&opi=89978449"><i class="bi bi-twitter iconz twitter"></i></a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwia3_rl1J6AAxVtWEEAHVcbD4MQFnoECBEQAQ&url=https%3A%2F%2Fwww.facebook.com%2FVANS%2F&usg=AOvVaw0mP3TDJqvuzdHGf0AyCwBj&opi=89978449"><i class="bi bi-facebook iconz facebook"></i></a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi0ksv51J6AAxWdTEEAHWnXBacQFnoECA0QAQ&url=https%3A%2F%2Fwww.pinterest.com%2Fvans%2F&usg=AOvVaw13fH9TjrAoG286XmaAYkBn&opi=89978449"><i class="bi bi-pinterest iconz pinterest"></i></a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiU5LiH1Z6AAxWxT0EAHUujCiwQFnoECBEQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fvans&usg=AOvVaw0VTkor5_ki28YJps-xrF5e&opi=89978449"><i class="bi bi-youtube iconz yt"></i></a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZ4aSV1Z6AAxXwQUEAHVv9CBgQFnoECBIQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fvans%2F%3Fhl%3Den&usg=AOvVaw096rjl7FyH4zzRQ_TRw6ek&opi=89978449"><i class="bi bi-instagram iconz ig"></i></a>
+          </div>
+          </center>
+        </div>
+        <br>
+        <div class="col-lg-6 d-md-none d-lg-none d-sm-block">
+          <br>
+          <br>
+          <h3 class="text-center">SUBSCRIBE</h3>
+          <form for="email" style="font-size: 10px; font-family: sans-serif;"></form>
+          <div class="input-group mb-3" style="width: 300px; margin: 0 auto;">
+            <input type="email" class="form-control" placeholder="Email Address:">
+            <div class="input-group-append">
+              <span class="input-group-text" style="border-radius: 0; height: 45px;">Send</span>
+            </div>
+          </div>
+          <div class="form-check text-center">
+            <label class="form-check-label" style="font-family: sans-serif; font-size: 13px;">
+              <input type="checkbox" class="form-check-input" value=""> I agree to <span style="text-decoration: underline;"><a href="https://www.vans.com/en-us/company/privacy">Privacy Policy</a></span> and <span><a style="text-decoration: underline;" href="https://www.vans.com/en-us/company/terms-of-use">Terms of conditions</a></span>
+            </label>
+          </div>
+          <br>
+
+            <!-- all country dropdown  -->
+
+            <div class="container countries">
+              <form>Location:
+                <select class="form-control" id="countries" name="countries">
+                  <option value="USA">United States</option>
+                  <option value="UK">United Kingdom</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Australia">Australia</option>
+                  <option value="Germany">Germany</option>
+                  <option value="France">France</option>
+                  <option value="India">India</option>
+                  <option value="Portugal">Portugal</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Chile">Chile</option>
+                  <option value="Saudi Arabia">Saudi Arabia</option>
+                  <option value="United Arab Emirates">United Arab Emirates</option>
+                  <option value="Egypt">Egypt</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="Kenya">Kenya</option>
+                  <option value="Ghana">Ghana</option>
+                  <option value="South Africa">South Africa</option>
+                  <option value="Morocco">Morocco</option>
+                  <option value="Jamaica">Jamaica</option>
+                  <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                  <option value="Puerto Rico">Puerto Rico</option>
+                  <option value="Haiti">Haiti</option>
+                  <option value="Fiji">Fiji</option>
+                </select>
+              </form>
+            </div>
+
+            <br>
+            <br>
+            <div class="container footer-logo">
+            <img src="images/vansfooterlogo.jpeg" width="20%">
+            <br>
+            <p>&copy; Vans, A VF Company
+           <span><a href="https://d1io3yog0oux5.cloudfront.net/_0cbb16da63df2bc454ca964a56de2de0/vfc/files/pages/modern-slavery-statement/Modern_Slavery_and_Human_Rights_Disclosure.pdf">Modern Slavery Statement</a></span></p>
+            </div>
+      </div>
+    </div>
+  
   
 
- 
-    
-  
+<!-- for the large screen sizes -->
+<br>
+<br>
+    <div class="container">
+      <div class="row below2">
 
-  
+        <div class="col-md-6 d-lg-flex d-none d-md-none d-lg-block d-sm-none justify-content-center">
+          <h3 class="text-center">SUBSCRIBE</h3>
+          <form for="email" style="font-size: 10px; font-family: sans-serif;"></form>
+          <div class="input-group mb-3" style="width: 300px; margin: 0 auto;">
+            <input type="email" class="form-control" placeholder="Email Address:">
+            <div class="input-group-append">
+              <span class="input-group-text" style="border-radius: 0; height: 45px;">Send</span>
+            </div>
+          </div>
+          <div class="form-check text-center">
+            <label class="form-check-label" style="font-family: sans-serif; font-size: 13px;">
+              <input type="checkbox" class="form-check-input" value=""> I agree to <span style="text-decoration: underline;"><a href="https://www.vans.com/en-us/company/privacy">Privacy Policy</a></span> and <span><a style="text-decoration: underline;" href="https://www.vans.com/en-us/company/terms-of-use">Terms of conditions</a></span>
+            </label>
+          </div>
+          <br>
+          <h3 class="text-center">FOLLOW VANS</h3>
+          <br>
+          <div class="container d-lg-flex d-none d-md-none d-lg-block d-sm-none justify-content-center">
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiX7-SB1J6AAxWUP8AKHT7WAi0QFnoECA4QAQ&url=https%3A%2F%2Ftwitter.com%2FVans&usg=AOvVaw0O_q7nIthIV5aaDP_uuow0&opi=89978449"><i class="bi bi-twitter iconz twitter"></i></a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwia3_rl1J6AAxVtWEEAHVcbD4MQFnoECBEQAQ&url=https%3A%2F%2Fwww.facebook.com%2FVANS%2F&usg=AOvVaw0mP3TDJqvuzdHGf0AyCwBj&opi=89978449"><i class="bi bi-facebook iconz facebook"></i></a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi0ksv51J6AAxWdTEEAHWnXBacQFnoECA0QAQ&url=https%3A%2F%2Fwww.pinterest.com%2Fvans%2F&usg=AOvVaw13fH9TjrAoG286XmaAYkBn&opi=89978449"><i class="bi bi-pinterest iconz pinterest"></i></a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiU5LiH1Z6AAxWxT0EAHUujCiwQFnoECBEQAQ&url=https%3A%2F%2Fwww.youtube.com%2Fvans&usg=AOvVaw0VTkor5_ki28YJps-xrF5e&opi=89978449"><i class="bi bi-youtube iconz yt"></i></a>
+              <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZ4aSV1Z6AAxXwQUEAHVv9CBgQFnoECBIQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fvans%2F%3Fhl%3Den&usg=AOvVaw096rjl7FyH4zzRQ_TRw6ek&opi=89978449"><i class="bi bi-instagram iconz ig"></i></a>
+          </div>
+          <br>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row below d-flex justify-content-center">
+        <div class="col-lg-6 d-none d-md-none d-lg-block d-sm-none">
+          <h3 class="text-center">STORE LOCATOR</h3>
+          <br>
+          <p class="text-center">Find a Vans Store near you</p>
+          <button type="button" class="btn btn-danger btn-block">FIND A STORE</button>
+          <br>
+         
+        </div>
+          </div>
+        </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3  d-none d-md-none d-lg-block d-sm-none">
+                <!-- Vans Logo Column -->
+                <div class="container footer-logo">
+                  <img src="images/vansfooterlogo.jpeg" width="100%">
+                </div>
+              </div>
+        
+              <div class="col-lg-6  d-none d-md-none d-lg-block d-sm-none">
+                <!-- Text Column -->
+                <p style="font-family: sans-serif;font-size: 13px; position: relative; top: 3rem;">&copy; Vans, A VF Company 
+                  <span><a href="https://d1io3yog0oux5.cloudfront.net/_0cbb16da63df2bc454ca964a56de2de0/vfc/files/pages/modern-slavery-statement/Modern_Slavery_and_Human_Rights_Disclosure.pdf" style=" text-transform: underline; padding-left: 3rem;">Modern Slavery Statement</a></span>
+                </p>
+              </div>
+        
+              <div class="col-lg-3  d-none d-md-none d-lg-block d-sm-none">
+                <!-- Country Dropdown Column -->
+                <div class="container countries">
+                  <form>
+                    <label for="countries" style="margin: 0;">Location:</label>
+                    <select class="form-control" id="countries" name="countries">
+                      <option value="USA">United States</option>
+                      <option value="UK">United Kingdom</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Germany">Germany</option>
+                      <option value="France">France</option>
+                      <option value="India">India</option>
+                      <option value="Portugal">Portugal</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Chile">Chile</option>
+                      <option value="Saudi Arabia">Saudi Arabia</option>
+                      <option value="United Arab Emirates">United Arab Emirates</option>
+                      <option value="Egypt">Egypt</option>
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="Kenya">Kenya</option>
+                      <option value="Ghana">Ghana</option>
+                      <option value="South Africa">South Africa</option>
+                      <option value="Morocco">Morocco</option>
+                      <option value="Jamaica">Jamaica</option>
+                      <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                      <option value="Puerto Rico">Puerto Rico</option>
+                      <option value="Haiti">Haiti</option>
+                      <option value="Fiji">Fiji</option>
+                    </select>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- end -->
 
 
+          <!-- for small screen sizes -->
+        
+          <!-- Link to Bootstrap JS and jQuery -->
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </body>
+        </html>
+        
 
-  
+</div>
+
+
      
-   <script>
-    
+
+
+  </footer>
+
+
 
   
 
-   </script>
+  
+  <script>
+
+  </script>
+  
 
   </body>
 
