@@ -112,15 +112,18 @@ color: darkgrey;
 
 /*  icon on the collapsing navbar */
 .icyy, .bi-list{
-  padding-left: 15px;
-  padding-right: 15px;
   color: black;
-  font-size: 24px;
-  margin-left: 6rem;
-  padding: 0;
-
-
+  padding-left: 1rem;
+  padding-right: 1rem;
+ 
+  font-size: 22px;
+  
 }
+.icyy{
+  position:relative;
+  right: -5rem;
+}
+
 
 h3{
 font-family: 'Oswald', sans-serif;
