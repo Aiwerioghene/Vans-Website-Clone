@@ -111,11 +111,13 @@ color: darkgrey;
 }
 
 /*  icon on the collapsing navbar */
-.icyy{
-padding-left: 15px;
+.icyy, .bi-list{
+  padding-left: 15px;
   padding-right: 15px;
   color: black;
   font-size: 24px;
+  margin-left: 6rem;
+  padding: 0;
 
 
 }
