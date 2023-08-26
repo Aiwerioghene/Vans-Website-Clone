@@ -111,17 +111,23 @@ color: darkgrey;
 }
 
 /*  icon on the collapsing navbar */
-.icyy, .bi-list{
+.icyy-sm, .bi-list{
   color: black;
   padding-left: 1rem;
   padding-right: 1rem;
- 
   font-size: 22px;
-  
 }
-.icyy{
+
+/* hamburger menu */
+.icyy-sm{
   position:relative;
-  right: -5rem;
+  left: 3rem;
+  top:-0.3rem;
+}
+
+/* cart icon */
+.icyy{
+  font-size:22px;
 }
 
 
