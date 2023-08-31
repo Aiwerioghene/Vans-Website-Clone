@@ -113,21 +113,14 @@ color: black;
 
 
 /*  icon on the collapsing navbar */
-.icyy-sm{
+.icyy-sm, .bi-list{
   color: black;
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 22px;
-
-}
-
-.bi-list{
-  margin-left:5rem;
-  font-size: 25px;
-  color: black;
 }
 .icons{
-  margin-left:13rem;
+  margin-left:3rem;
 }
 /* hamburger menu */
 .icyy-sm{
