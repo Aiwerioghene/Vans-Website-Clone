@@ -120,7 +120,7 @@ color: black;
   font-size: 22px;
 }
 .icons{
-  margin-left:3rem;
+  margin-left:5rem;
 }
 /* hamburger menu */
 .icyy-sm{
@@ -348,6 +348,8 @@ background-color: rgb(45, 45, 187);
     color: black;
 
 }
+
+
 
 /* the carousel items */
 .img-fluid{
