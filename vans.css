@@ -106,9 +106,11 @@ border-radius: 17px;
 .bi-search, .bi-qr-code-scan{
 padding-left: 10px;
 padding-right: 10px;
-color: darkgrey;
+color: black;
 
 }
+
+
 
 /*  icon on the collapsing navbar */
 .icyy-sm, .bi-list{
@@ -117,7 +119,9 @@ color: darkgrey;
   padding-right: 1rem;
   font-size: 22px;
 }
-
+.icons{
+  margin-left:13rem;
+}
 /* hamburger menu */
 .icyy-sm{
   position:relative;
@@ -128,6 +132,7 @@ color: darkgrey;
 /* cart icon */
 .icyy{
   font-size:22px;
+  padding-left: 1rem;
 }
 
 
