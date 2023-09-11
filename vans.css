@@ -55,8 +55,6 @@ background-color: white;
 
 }
 
-opacity
-
 .custom-link:hover {
   border-bottom-color: black;
   text-decoration: none;
@@ -115,11 +113,19 @@ color: black;
 
 
 /*  icon on the collapsing navbar */
-.icyy-sm, .bi-list{
+.icyy-sm {
   color: black;
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 22px;
+}
+
+.bi-list{
+  color: black;
+  padding-left: 2.2rem;
+  padding-right: 1.2rem;
+  font-size: 22px;
+  margin-top: 1rem;
 }
 .icons{
   margin-left:5rem;
